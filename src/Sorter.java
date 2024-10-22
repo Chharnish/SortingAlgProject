@@ -55,7 +55,6 @@ public class Sorter {
         }
         if(lowIndex == 0 && highIndex == array.length-1){
             System.out.println("Now Quick sorting...");
-            startTime = System.nanoTime();
         }
         int pivot = array[highIndex].getAge();
         int pivotIndex = partition(array, lowIndex, highIndex, pivot);

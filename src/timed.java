@@ -1,6 +1,6 @@
 public class timed extends Employee{
-    double time;
-
+    long time;
+   //This class extends the original employee class but has a new variable to keep track of the time. I know this is pretty brilliant... :c
     public timed(String id, String fName, String lName, String age, long time) {
         super(id, fName, lName, age);
         this.time = time;
